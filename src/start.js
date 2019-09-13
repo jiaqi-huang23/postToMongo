@@ -8,7 +8,7 @@ dotenv.config();
 
 
 // Initialize connection to database
-const dbUrl = `mongodb+srv://jiaqi:xiaotiao88@cluster0-apmyr.gcp.mongodb.net/test?retryWrites=true&w=majority`;
+const dbUrl = process.env.MONGO_CONNECT_STRING;
 const dbOptions = {
         useNewUrlParser: true,
         useFindAndModify: false,
