@@ -61,7 +61,7 @@ lib/
 
 #misc
 .vscode/
-
+posts/
 # Yarn
 yarn-error.log
 .pnp/
