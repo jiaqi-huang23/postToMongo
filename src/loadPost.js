@@ -10,15 +10,11 @@ const readContent = async (path) => {
    
 }
 
-const load = async (title, path) => {
+export const loadPost = async (title, path) => {
     return {
         _id: uniqueString(),
         createdDate: Date.now(),
         title,
         content: await readContent(path)
     }
-}
-
-export const loadPost = async (title, path) => {
-    return (await load(title, path));
 }
