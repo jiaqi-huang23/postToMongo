@@ -54,12 +54,13 @@ typings/
 # dotenv environment variables file
 .env
 
-# gatsby files
-.cache/
 public
-
+lib/
 # Mac files
 .DS_Store
+
+#misc
+.vscode/
 
 # Yarn
 yarn-error.log
@@ -68,8 +69,4 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 
-#Post data
-src/pages
 
-#Misc
-resources.js
